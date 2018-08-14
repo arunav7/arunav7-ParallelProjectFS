@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    var username = document.getElementById("uname");
+	var email = document.getElementById("mail");
+	var mobileNo = document.getElementById("mobno");
+	var mobexp = /^[7-9]{1}[0-9]{9}$/;
+    var emailexp =/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/;
+  
+    if(username.value.length == 0) {
+	  alert("Enter Valid username");
+	  return;
+	}
+	
+	if(emailexp.test(email.value) == false) {
+	  alert("Enter Valid email address");
+	  return;
+	}
+	
+	if(mobexp.test(mobileNo.value) == false) {
+	  alert("Enter Valid Mobile number");
+	  return;
+	}
+  
+  </script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Edit Your Profile</h2>
+  <form class="form-horizontal" action="D:\\Users\\ADM-IG-HWDLAB1C\\Desktop\\customer.html">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">UserName:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="uname" placeholder="Edit Username" name="uname">
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="mail" placeholder="Edit Email" name="mail">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Mobile Number:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="mobno" placeholder="Edit Mobile Number" name="mobile">
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

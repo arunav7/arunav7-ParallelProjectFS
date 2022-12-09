@@ -12,5 +12,13 @@ public class Demo {
 
         System.out.println("Sum = " + sum);
 
+        // changes for drop2
+        float numberOne = 2.33f;
+        float numberTwo = 3.44f;
+
+        float sumFloat = numberOne + numberTwo;
+
+        System.out.println("Sum = " + sumFloat);
+
     }
 }

@@ -28,11 +28,15 @@ class TestClass {
 		 Customer cust2=new Customer("Ajay", "9963242422",new Wallet(new BigDecimal(6000)));
 		 Customer cust3=new Customer("Yogini", "9922950519",new Wallet(new BigDecimal(7000)));
 		 Customer cust4=new Customer("Yogini", "9922950519",new Wallet(new BigDecimal(7000)));
+		 Customer cust5=new Customer("Yogini", "9922950519",new Wallet(new BigDecimal(7000)));
+		 Customer cust6=new Customer("Yogini", "9922950519",new Wallet(new BigDecimal(7000)));
 				
 		 data.put("9900112212", cust1);
 		 data.put("9963242422", cust2);	
 		 data.put("9922950519", cust3);
 		 data.put('2354654754747', cust4);	
+		 data.put('2354654754747', cust5);	
+		 data.put('2354654754747', cust6);	
 	     service= new WalletServiceImpl(data);
 	     
 	}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Demo() {
+const Demo = (props) => {
   return (
     <React.Fragment>
         <div>Demo</div>

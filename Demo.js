@@ -2,7 +2,9 @@ import React from 'react'
 
 function Demo() {
   return (
-    <div>Demo</div>
+    <React.Fragment>
+        <div>Demo</div>
+    </React.Fragment>
   )
 }
 

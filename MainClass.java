@@ -31,6 +31,7 @@ public class MainClass {
 		 data.put("9963242422", cust2);	
 		 data.put("9922950519", cust3);
 		 data.put('2354654754747', cust4);	
+		 data.put('2354654323242', cust4);	
 	     service= new WalletServiceImpl(data);
 	     
 	}

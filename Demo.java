@@ -12,8 +12,17 @@ public class Demo {
 
         System.out.println("Sum = " + sum);
 
-        // drop3 changes
-        System.out.println("Drop3 changes------");
+        // changes for drop2
+        float numberOne = 2.33f;
+        float numberTwo = 3.44f;
 
+        float sumFloat = numberOne + numberTwo;
+
+        System.out.println("Sum = " + sumFloat);
+        
+        System.out.println("New commit---------- ");
+        
+         // drop3 changes
+        System.out.println("Drop3 changes------");
     }
 }

@@ -19,6 +19,7 @@ public class Demo {
         float sumFloat = numberOne + numberTwo;
 
         System.out.println("Sum = " + sumFloat);
-
+        
+        System.out.println("New commit---------- ");
     }
 }

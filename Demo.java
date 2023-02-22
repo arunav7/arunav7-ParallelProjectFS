@@ -21,5 +21,8 @@ public class Demo {
         System.out.println("Sum = " + sumFloat);
         
         System.out.println("New commit---------- ");
+        
+         // drop3 changes
+        System.out.println("Drop3 changes------");
     }
 }

@@ -12,5 +12,8 @@ public class Demo {
 
         System.out.println("Sum = " + sum);
 
+        // drop3 changes
+        System.out.println("Drop3 changes------");
+
     }
 }
